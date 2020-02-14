@@ -14,7 +14,7 @@ end
 
 def long_planeteer_calls(source)# code an argument here
   # Your code here
-  source.find do {|i| i.length > 4}.length >= 1
+  source.any?{|i| i.length > 4}
 end
 
 def find_the_cheese# code an argument here
