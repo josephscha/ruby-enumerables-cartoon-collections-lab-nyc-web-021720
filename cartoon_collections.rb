@@ -12,8 +12,9 @@ def summon_captain_planet(source)# code an argument here
   return source.map{|i| i.capitalize + "!"}
 end
 
-def long_planeteer_calls# code an argument here
+def long_planeteer_calls(source)# code an argument here
   # Your code here
+  source.filter
 end
 
 def find_the_cheese# code an argument here
