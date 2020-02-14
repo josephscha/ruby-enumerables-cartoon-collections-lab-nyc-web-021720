@@ -2,7 +2,9 @@ def roll_call_dwarves(source)# code an argument here
   # Your code here
   index = 0 
   while index < source.length 
-end
+  puts "#{index + 1}. #{source[index]}"
+  index += 1 
+end 
 
 def summon_captain_planet# code an argument here
   # Your code here
